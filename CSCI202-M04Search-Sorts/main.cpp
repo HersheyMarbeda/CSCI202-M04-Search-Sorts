@@ -1,14 +1,26 @@
+// /*
+//    Program Assignment Name: Search and Sorts
 //
-//  main.cpp
-//  CSCI202-M04Search-Sorts
+//    Programmer: Hershey Marbeda
+//    Instructor: Dr. Carver
+//    Course: CSCI 202: Data Structures and Algorithms
 //
-//  Created by Hershey Marbeda on 11/15/24.
 //
+//    Last Date Updated: 11.15.2024
+// */
 
 #include <iostream>
+#include <iomanip>
+#include <vector>
+#include <algorithm>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main()
+{
+    
+    
+    
+    cout << endl << endl;
     return 0;
 }
