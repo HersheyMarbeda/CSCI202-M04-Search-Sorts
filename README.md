@@ -13,4 +13,4 @@
 4. You will need to know the time in milliseconds to run each and graph the comparison of n vs time.
 
 ## My Methods
-1. I used 'ctime' to measure the time for both Selection and Merge Sorts for N = 100,000. I also used one class to make the Selection and Merge Sorts. 
+1. I used `<ctime>` to measure the time for both Selection and Merge Sorts for N = 100,000. I also used one class to make the Selection and Merge Sorts. 
