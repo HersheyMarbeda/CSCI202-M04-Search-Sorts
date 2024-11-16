@@ -1,28 +1,25 @@
-// /*
-//    Program Assignment Name: Search and Sorts
-//
-//    Programmer: Hershey Marbeda
-//    Instructor: Dr. Carver
-//    Course: CSCI 202: Data Structures and Algorithms
-//
-//
-<<<<<<< HEAD
-//    Last Date Updated: 11.16.2024
-//
-// ----- Program Assignment Description -----
-// 1. Write and test two programs
-//  - Use selection sort for linked lists.
-//  - Use merge sort for linked lists.
-// 2. Compare the efficiency between the merge and selection sort.
-// 3. Test with AT LEAST lists with these number of elements
-//  - 1
-//  - 10
-//  - 100
-//  - 1000
-// 4. You will need to know the time in milliseconds to run each and graph the comparison of n vs time.
-//
-// */
-
+/********************************************************************************************************
+ *  Program Assignment Name: Search and Sorts
+ *
+ *  Programmer: Hershey Marbeda
+ *  Instructor: Dr. Carver
+ *  Course: CSCI 202: Data Structures and Algorithms
+ *
+ * Last Date Updated: 11.16.2024
+ *
+ * ------------------------------------ Program Assignment Description ----------------------------------
+ * 1. Write and test two programs
+ *    - Use selection sort for linked lists.
+ *    - Use merge sort for linked lists.
+ * 2. Compare the efficiency between the merge and selection sort.
+ * 3. Test with AT LEAST lists with these number of elements
+ *    - 1
+ *    - 10
+ *    - 100
+ *    - 1000
+ * 4. You will need to know the time in milliseconds to run each and graph the comparison of n vs time.
+ *
+ *******************************************************************************************************/
 
 #include <iostream>
 #include <iomanip>
@@ -249,23 +246,7 @@ int main()
     list.MergeSearch();
     cout << "Time taken For Merge Sort: " << fixed << setprecision(8) << (double)(clock() - start) / CLOCKS_PER_SEC
          << " seconds for N = 100,000" << endl;
-=======
-//    Last Date Updated: 11.15.2024
-// */
 
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
-int main()
-{
-    
-    
->>>>>>> 487f143fd687bdbf27e552419596ed5aa522ae93
-    
-    cout << endl << endl;
+    court << endl << endl;
     return 0;
 }
