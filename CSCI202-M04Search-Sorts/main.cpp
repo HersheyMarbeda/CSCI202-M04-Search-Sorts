@@ -6,6 +6,7 @@
 //    Course: CSCI 202: Data Structures and Algorithms
 //
 //
+<<<<<<< HEAD
 //    Last Date Updated: 11.16.2024
 //
 // ----- Program Assignment Description -----
@@ -248,6 +249,22 @@ int main()
     list.MergeSearch();
     cout << "Time taken For Merge Sort: " << fixed << setprecision(8) << (double)(clock() - start) / CLOCKS_PER_SEC
          << " seconds for N = 100,000" << endl;
+=======
+//    Last Date Updated: 11.15.2024
+// */
+
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main()
+{
+    
+    
+>>>>>>> 487f143fd687bdbf27e552419596ed5aa522ae93
     
     cout << endl << endl;
     return 0;
